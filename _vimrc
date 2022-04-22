@@ -86,14 +86,20 @@ endif
    
    
 call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
-Plug 'maximbaz/lightline-ale'
-Plug 'itchyny/lightline.vim'
  
-Plug 'scrooloose/nerdtree'
-Plug 'easymotion/vim-easymotion'
-Plug 'christoomey/vim-tmux-navigator'
- 
+  Plug 'morhetz/gruvbox'            
+  Plug 'maximbaz/lightline-ale'     
+  Plug 'itchyny/lightline.vim'      
+                                   
+  Plug 'scrooloose/nerdtree'        
+  Plug 'easymotion/vim-easymotion'  
+  Plug 'christoomey/vim-tmux-navigator'
+  Plug 'valloric/youcompleteme'     
+  Plug 'shougo/neocomplete.vim'     
+  Plug 'bitc/vim-hdevtools'         
+  Plug 'twinside/vim-haskellfold'   
+  Plug 'enomsg/vim-haskellconcealplus'
+   
 call plug#end()
  
 colorscheme gruvbox
