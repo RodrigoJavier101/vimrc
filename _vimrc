@@ -57,15 +57,18 @@ if has("gui_gtk2")
   endif   
           
           
-          
-  let mapleader=" "
+let mapleader=" "
  nmap <Leader>q :q!<CR>
  nmap <Leader>w :w!<CR>
  nmap <Leader>x :wq!<CR>
  nmap <Leader>tt :terminal<CR>
  nmap <Leader>so :source ~/.vimrc<CR>
- nmap <Leader>nt :NERDTreeFind<CR>
-nmap <Leader>pp :PlugInstall<CR>
+ nmap <Leader>n :NERDTreeFind<CR>
+ nmap <Leader>pp :PlugInstall<CR>
+ nmap <Leader>pc :PlugClean<CR>
+ nmap <Leader>l gg=G<CR>
+
+
  " Shortcuts for switching the buffers
  map <C-N> :bnext<CR>
  map <C-P> :bprev<CR>
